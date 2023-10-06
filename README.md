@@ -1,4 +1,5 @@
 # NaturalistAI: Mushroom Identification and Classification
+
 ![Mushrooms](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/Mushrooms.png)
 
 ## Company Goals
@@ -7,29 +8,28 @@
 - **Mushroom Classifier**: We aim to pair the database with a powerful classifier that can accurately identify edible mushrooms from poisonous ones, ensuring user safety.
 
 - **User-Friendly Application**: We're working on creating an intuitive application that allows users to identify mushrooms in the wild by leveraging the classifier and the extensive mushroom database.
+
 ![Mushrooms2](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/Mushrooms2.png)
+
 
 ## Mushroom Data Review
 
 - **Mushroom Characteristics**: Mushrooms are typically brown, found in wooded areas, and thrive during the Summer and Autumn seasons.
 
 - **Key Features**: Distinguishing between poisonous and edible mushrooms primarily relies on the morphology of the mushroom and, more crucially, the combination of morphological features.
-![EDA1](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/EDA1.png)
-![EDA2](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/EDA2.png)
-![EDA3](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/EDA3.png)
 
-![EDA5](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/EDA5.png)
-![EDA6](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/EDA6.png)
 
 ## Classification Models: Assessment
 
 - **Precision Metric**: To evaluate our models, we use precision as the primary metric. Precision gives more weight to false negatives, a critical factor when dealing with identifying poisonous mushrooms as edible.
+
 
 ## Classification Models: Evolution
 
 ### Initial Model
 
 - The initial logistic regression model, without tuning, achieved a precision of 0.84.
+
 ![RegConMat](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/RegConMat.png)
 
 ### Second Model: Feature Selection
@@ -43,8 +43,10 @@
 - The final model resulted from extensive hyperparameter tuning, leading to a decision tree model.
 - Key features in this model were cap shape, cap surface, cap color, and gill attachment.
 - The final model achieved an impressive precision of 0.99 for both training and test data.
+
 ![DTConMat](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/DTConMat.png)
 ![ROCCurve](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/ROCCurve.png)
+
 
 ## Business Recommendations
 
@@ -53,6 +55,7 @@
 - **Mushroom Catalog**: Create a comprehensive catalog of mushrooms, including detailed feature information, allowing users to search and learn about different mushrooms.
 
 - **User Contributions**: Enable users to contribute images and features of mushrooms they encounter in the wild, continually improving the database and the model's accuracy.
+
 
 ## Future Improvements
 
