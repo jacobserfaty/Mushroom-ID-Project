@@ -3,7 +3,7 @@
 ![Mushrooms](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/Mushrooms.png)
 
 ## Company Goals
-- **Create a Mushroom Database**: Our goal is to develop a comprehensive database that catalogues mushrooms based on their morphology, habitat, season, and location.
+- **Create a Mushroom Database**: Our goal is to develop a comprehensive database that catalogs mushrooms based on their morphology, habitat, season, and location.
 
 - **Mushroom Classifier**: We aim to pair the database with a powerful classifier that can accurately identify edible mushrooms from poisonous ones, ensuring user safety.
 
@@ -45,6 +45,8 @@
 - The final model achieved an impressive precision of 0.99 for both training and test data.
 
 ![DTConMat](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/DTConMat.png)
+
+- The results presented on the ROC curve graph show that the final model has achieved almost perfect accuracy.
 ![ROCCurve](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/ROCCurve.png)
 
 
