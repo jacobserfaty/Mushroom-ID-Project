@@ -46,7 +46,7 @@
 
 ![DTConMat](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/DTConMat.png)
 
-- The results presented on the ROC curve graph show that the final model has achieved almost perfect accuracy.
+- The results presented on the ROC curve graph show that the final model has achieved almost perfect precision.
 
 ![ROCCurve](https://github.com/jacobserfaty/Mushroom-Identification-Project/blob/main/Images/ROCCurve.png)
 
